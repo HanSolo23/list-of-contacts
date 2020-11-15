@@ -162,6 +162,7 @@ export default {
     },
     closeModalDeleteWindow() {
       this.isModalDeleteVisible = false;
+      this.isDelete = false;
     },
     showModalEditWindow() {
       this.isModalEditVisible = true;
